@@ -1,5 +1,4 @@
 import os
-import json
 from geopy.geocoders import Nominatim
 
 from twitter2 import create_account_users_json
@@ -16,9 +15,7 @@ def find_location_from_name(location_account):
         if location_account + "_data" + ".json" not in os.listdir(dir_name):
             create_account_users_json(location_account)
 
-        with open(os.path.join(os.getcwd(), 'jsons_dir', location_account + "_data" + ".json"),
-                  "r", encoding='utf-8') as file:
-            location_account_json = json.load(file)
+        location_account_json = create_account_users_json(location_account)
 
         geolocator = Nominatim(user_agent="specify_your_app_name_here", timeout=5)
         all_followers_location = []

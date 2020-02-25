@@ -27,7 +27,7 @@ def create_account_users_json(acct):
     else:
         url = twurl.augment(TWITTER_URL,
                             {'screen_name': acct,
-                             'count': '100'})
+                             'count': '15'})
         connection = urllib.request.urlopen(url, context=ctx)
         data = connection.read().decode()
 
@@ -40,7 +40,7 @@ def create_account_users_json(acct):
         with open(os.path.join(os.getcwd(), 'jsons_dir', acct + "_data" + ".json"), "w", encoding="utf-8") as f:
             json.dump(js, f, ensure_ascii=False, indent=4)
 
-        return return_string
+        return js
 
 
 if __name__ == '__main__':

@@ -22,8 +22,8 @@ def input_account():
     """
     try:
         if len(request.form["account"]) >= 1:
-            create_followers_map(request.form["account"])
-            return render_template('Account follower\' locations.html')
+            contex = {"mapp": create_followers_map(request.form["account"])}
+            return render_template('Account follower\' locations.html', **contex)
 
         else:
             error = 'Enter right account'

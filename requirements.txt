@@ -1,0 +1,7 @@
+geopy==1.20.0
+Flask==1.1.1
+jsonschema==3.2.0
+parser-json-python==1.0.0
+httpsproxy-urllib2==1.0
+urllib2-file==0.2.1
+urllib3==1.22

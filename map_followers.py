@@ -1,4 +1,3 @@
-import os
 import folium
 
 from location_from_text import find_location_from_name
@@ -36,9 +35,11 @@ def create_followers_map(account_map):
         map_all_follower_locations = followers_location_layer(account_map)
         map.add_child(map_all_follower_locations)
         map.add_child(folium.LayerControl())
-        map.save(outfile=os.path.join(os.getcwd(), 'templates', 'Account follower\' locations.html'))
+        # map.save(outfile=os.path.join(os.getcwd(), 'templates', 'Account follower\' locations.html'))
         print("Finished. Please have look at the map Account follower\' locations.html")
         print("If you want to input other account, please, return to previous page")
+        mapp = map.get_root().render()
+        return mapp
 
     except TypeError:
         print("Something went wrong. Try to input other account")
