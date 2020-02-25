@@ -5,6 +5,7 @@ import hidden
 # https://apps.twitter.com/
 # Create App and get the four strings, put them in hidden.py
 
+
 def augment(url, parameters):
     secrets = hidden.oauth()
     consumer = oauth.OAuthConsumer(secrets['consumer_key'],
