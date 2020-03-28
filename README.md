@@ -11,7 +11,6 @@ But there are a few cases where the program may behave differently:
  ask which item the list item is to display ... implementation options can be many
 
 
-
 __The result of the module__ on the screenshots in the \ data_and_images \ lab3_2-1.jpg, lab3_2-11.jpg and lab3_2-111.jpg
 
 
