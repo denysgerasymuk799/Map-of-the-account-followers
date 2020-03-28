@@ -1,4 +1,4 @@
-__lab3_term2_json_retriving.py__
+##lab3_term2_json_retriving.py
 
 For example, suppose an API returned a specific object that the user wants to see.
 In response to the key entered by the user, it is necessary to show the corresponding value.
@@ -12,19 +12,19 @@ But there are a few cases where the program may behave differently:
 
 
 
-__The result of the module__ in the screenshots in the \ data_and_images \ lab3_2-1.jpg, lab3_2-11.jpg and lab3_2-111.jpg
+__The result of the module__ on the screenshots in the \ data_and_images \ lab3_2-1.jpg, lab3_2-11.jpg and lab3_2-111.jpg
 
 
 
 
 
-__flask_app.py__
+##flask_app.py
 
-This is a web application that allows you to map on the map (location) the mates
+This is a web application that allows you to place on the map (location) the mates
 (people you are subscribed to) of the specified Twitter account. The value of the "location" field
 specified by a comrade is represented on the map by an arbitrary marker type, but also contains
  the name of that comrade (the value of the "screen_name" field).
 
-__The result of the web-app flask_app.py__ in screenshots in \ data_and_images \ lab3_3-1.jpg, lab3_3-11.jpg, lab3_3-111.jpg
+__The result of the web-app flask_app.py__ on screenshots in \ data_and_images \ lab3_3-1.jpg, lab3_3-11.jpg, lab3_3-111.jpg
 and lab3_3-1111.jpg
 Also the realisation of this web-app you can find on http://denysger88.pythonanywhere.com/ 
