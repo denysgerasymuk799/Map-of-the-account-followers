@@ -1,4 +1,4 @@
-##lab3_term2_json_retriving.py
+#lab3_term2_json_retriving.py
 
 For example, suppose an API returned a specific object that the user wants to see.
 In response to the key entered by the user, it is necessary to show the corresponding value.
@@ -17,7 +17,7 @@ __The result of the module__ on the screenshots in the \ data_and_images \ lab3_
 
 
 
-##flask_app.py
+#flask_app.py
 
 This is a web application that allows you to place on the map (location) the mates
 (people you are subscribed to) of the specified Twitter account. The value of the "location" field
